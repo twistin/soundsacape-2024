@@ -43,7 +43,4 @@ learn = cnn_learner(data, resnet34, metrics=accuracy)
 
 # Entrena el modelo
 learn.fine_tune(epochs=10)
-
 ```
-
-

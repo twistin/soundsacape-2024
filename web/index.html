@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b15b9757db4e111d9569d4641aed66fc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b15b9757db4e111d9569d4641aed66fc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b15b9757db4e111d9569d4641aed66fc = L.map(
+                "map_b15b9757db4e111d9569d4641aed66fc",
+                {
+                    center: [42.23282, -8.72264],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_b15b9757db4e111d9569d4641aed66fc);
+
+            
+
+        
+    
+            var tile_layer_4705af91d28e980bd7d1b816a5130336 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map data \u00a9 OpenStreetMap contributors, CC-BY-SA, Imagery \u00a9 CartoDB", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_4705af91d28e980bd7d1b816a5130336.addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+            var marker_7151b19732f7134ef5ec1e5901e58b21 = L.marker(
+                [42.2309009, -8.7254402],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_4ad20b2eefdc006329985dc26eaa6c9d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_355158318fbeaa76a557190f0c90d922 = $(`<div id="html_355158318fbeaa76a557190f0c90d922" style="width: 100.0%; height: 100.0%;">     <h4>Mirador-Fortaleza-Vista_Plaza</h4>     <p>Nivel Sonoro: 0.02 dB</p>     <p>Características Bióticas: 18.62</p>     <p>Características Antropogénicas: 0.03</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/1_mirador_plaz_españa.jpg" alt="Imagen de Mirador-Fortaleza-Vista_Plaza" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0010_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/1_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_4ad20b2eefdc006329985dc26eaa6c9d.setContent(html_355158318fbeaa76a557190f0c90d922);
+            
+        
+
+        marker_7151b19732f7134ef5ec1e5901e58b21.bindPopup(popup_4ad20b2eefdc006329985dc26eaa6c9d)
+        ;
+
+        
+    
+    
+            var marker_0c3075362d336a192c5e03476918b3bf = L.marker(
+                [42.2311563, -8.7263736],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_4e43ff48af125c43615c73bea44e0fab = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_199d42464f8689a1d28943b6cfda6404 = $(`<div id="html_199d42464f8689a1d28943b6cfda6404" style="width: 100.0%; height: 100.0%;">     <h4>Frente al repetidor</h4>     <p>Nivel Sonoro: 0.02 dB</p>     <p>Características Bióticas: 19.09</p>     <p>Características Antropogénicas: 0.02</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/2_frente_repetidor.jpg" alt="Imagen de Frente al repetidor" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0011_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/2_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_4e43ff48af125c43615c73bea44e0fab.setContent(html_199d42464f8689a1d28943b6cfda6404);
+            
+        
+
+        marker_0c3075362d336a192c5e03476918b3bf.bindPopup(popup_4e43ff48af125c43615c73bea44e0fab)
+        ;
+
+        
+    
+    
+            var marker_b85ee9d38d85ba6e7cd6eb5072bfe40e = L.marker(
+                [42.2320503, -8.7267662],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_0243e147add392261631b8f85f9a3e89 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7eaf216c0d4dcfd48da1673f7bc4b03e = $(`<div id="html_7eaf216c0d4dcfd48da1673f7bc4b03e" style="width: 100.0%; height: 100.0%;">     <h4>Junto al muro fortaleza mirador ria</h4>     <p>Nivel Sonoro: 0.03 dB</p>     <p>Características Bióticas: 19.13</p>     <p>Características Antropogénicas: 0.02</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/3_mirador_ria.jpg" alt="Imagen de Junto al muro fortaleza mirador ria" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0012_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/3_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_0243e147add392261631b8f85f9a3e89.setContent(html_7eaf216c0d4dcfd48da1673f7bc4b03e);
+            
+        
+
+        marker_b85ee9d38d85ba6e7cd6eb5072bfe40e.bindPopup(popup_0243e147add392261631b8f85f9a3e89)
+        ;
+
+        
+    
+    
+            var marker_228f2f2a0973b8f42b4ab070ce9c6a85 = L.marker(
+                [42.2332685, -8.7265998],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_13e1ca065a4a9953dc18cdd873871b40 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_58dfb859f98b76a9994b46844e8a1ac2 = $(`<div id="html_58dfb859f98b76a9994b46844e8a1ac2" style="width: 100.0%; height: 100.0%;">     <h4>Anclas Galeones</h4>     <p>Nivel Sonoro: 0.06 dB</p>     <p>Características Bióticas: 19.02</p>     <p>Características Antropogénicas: 0.02</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/4_anclas_galeones.jpg" alt="Imagen de Anclas Galeones" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0013_LR_part002.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/4_part002.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_13e1ca065a4a9953dc18cdd873871b40.setContent(html_58dfb859f98b76a9994b46844e8a1ac2);
+            
+        
+
+        marker_228f2f2a0973b8f42b4ab070ce9c6a85.bindPopup(popup_13e1ca065a4a9953dc18cdd873871b40)
+        ;
+
+        
+    
+    
+            var marker_e644d36a169f79c2db3bb021225b49f5 = L.marker(
+                [42.2332401, -8.7270673],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_c109db2586e5a2416af06832855c6d7e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a6eee8b05b3980869f1979c97b9c0af9 = $(`<div id="html_a6eee8b05b3980869f1979c97b9c0af9" style="width: 100.0%; height: 100.0%;">     <h4>Sendero bajo estanque las anclas</h4>     <p>Nivel Sonoro: 0.05 dB</p>     <p>Características Bióticas: 19.60</p>     <p>Características Antropogénicas: 0.06</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/5_paseo_bajo_anclas.jpg" alt="Imagen de Sendero bajo estanque las anclas" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0014_LR_part008.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/5_part008.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_c109db2586e5a2416af06832855c6d7e.setContent(html_a6eee8b05b3980869f1979c97b9c0af9);
+            
+        
+
+        marker_e644d36a169f79c2db3bb021225b49f5.bindPopup(popup_c109db2586e5a2416af06832855c6d7e)
+        ;
+
+        
+    
+    
+            var marker_538e6f0482d8a5361d3fe2788ca9b459 = L.marker(
+                [42.2331607, -8.7256001],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_8460e574ce0e5d4b0578e35ce7d5e3f0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_ac7f7da9e6a232260c87561e50fcde4e = $(`<div id="html_ac7f7da9e6a232260c87561e50fcde4e" style="width: 100.0%; height: 100.0%;">     <h4>Rincon fuera del sendero con fondo a Guía</h4>     <p>Nivel Sonoro: 0.02 dB</p>     <p>Características Bióticas: 18.68</p>     <p>Características Antropogénicas: 0.03</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/6_rincon_vista_frente_aguia.jpg" alt="Imagen de Rincon fuera del sendero con fondo a Guía" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0015_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/6_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_8460e574ce0e5d4b0578e35ce7d5e3f0.setContent(html_ac7f7da9e6a232260c87561e50fcde4e);
+            
+        
+
+        marker_538e6f0482d8a5361d3fe2788ca9b459.bindPopup(popup_8460e574ce0e5d4b0578e35ce7d5e3f0)
+        ;
+
+        
+    
+    
+            var marker_e146384465c405d5d40b7c267d8712bb = L.marker(
+                [42.2298972, -8.7229534],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_2234d1e30d8b9b8cb9d29b071546e311 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_72162b2de4ef7e29cb004eead6b1337d = $(`<div id="html_72162b2de4ef7e29cb004eead6b1337d" style="width: 100.0%; height: 100.0%;">     <h4>Rincon bajo el parque infantil</h4>     <p>Nivel Sonoro: 0.05 dB</p>     <p>Características Bióticas: 19.07</p>     <p>Características Antropogénicas: 0.02</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/7_rincon_bajo_parque.jpg" alt="Imagen de Rincon bajo el parque infantil" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0016_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/7_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_2234d1e30d8b9b8cb9d29b071546e311.setContent(html_72162b2de4ef7e29cb004eead6b1337d);
+            
+        
+
+        marker_e146384465c405d5d40b7c267d8712bb.bindPopup(popup_2234d1e30d8b9b8cb9d29b071546e311)
+        ;
+
+        
+    
+    
+            var marker_20975ffc1308f63a4acd122aaa85d120 = L.marker(
+                [42.2296656, -8.7236086],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_94420c54c8f7ce3cd32d54fd67ec1fd2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b1757387caab8d5150bbf66ed522e826 = $(`<div id="html_b1757387caab8d5150bbf66ed522e826" style="width: 100.0%; height: 100.0%;">     <h4>Promontorio sobre el parque infantil</h4>     <p>Nivel Sonoro: 0.03 dB</p>     <p>Características Bióticas: 19.17</p>     <p>Características Antropogénicas: 0.04</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/8_promontorio_parque.jpg" alt="Imagen de Promontorio sobre el parque infantil" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0017_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/8_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_94420c54c8f7ce3cd32d54fd67ec1fd2.setContent(html_b1757387caab8d5150bbf66ed522e826);
+            
+        
+
+        marker_20975ffc1308f63a4acd122aaa85d120.bindPopup(popup_94420c54c8f7ce3cd32d54fd67ec1fd2)
+        ;
+
+        
+    
+    
+            var marker_90181ed94174b86dbae5121d4a9dd024 = L.marker(
+                [42.2303284, -8.7257982],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_d0e480de7456229a5cb08ecda329c46b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6cf81a2c111be368f9544b3fe51cbb67 = $(`<div id="html_6cf81a2c111be368f9544b3fe51cbb67" style="width: 100.0%; height: 100.0%;">     <h4>Sendero sobre el vivero de plantas</h4>     <p>Nivel Sonoro: 0.01 dB</p>     <p>Características Bióticas: 18.62</p>     <p>Características Antropogénicas: 0.03</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/9_sendero_vivero.jpg" alt="Imagen de Sendero sobre el vivero de plantas" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0018_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/9_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_d0e480de7456229a5cb08ecda329c46b.setContent(html_6cf81a2c111be368f9544b3fe51cbb67);
+            
+        
+
+        marker_90181ed94174b86dbae5121d4a9dd024.bindPopup(popup_d0e480de7456229a5cb08ecda329c46b)
+        ;
+
+        
+    
+    
+            var marker_e9169f59de41482c82992863de251f06 = L.marker(
+                [42.2302209, -8.7266387],
+                {}
+            ).addTo(map_b15b9757db4e111d9569d4641aed66fc);
+        
+    
+        var popup_9fb5a74219218abfd762bffafc2c2855 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_478fd37a8bc1248668fee3afa50f356b = $(`<div id="html_478fd37a8bc1248668fee3afa50f356b" style="width: 100.0%; height: 100.0%;">     <h4>MiradorPlaza Martín Codax</h4>     <p>Nivel Sonoro: 0.04 dB</p>     <p>Características Bióticas: 18.42</p>     <p>Características Antropogénicas: 0.14</p>     <img src="/Users/sdcarr/Desktop/soundscape-2024/imagenes/CASTRO/10_mirador_martin_codax.jpg" alt="Imagen de MiradorPlaza Martín Codax" width="200">     <br>     <img src="/Users/sdcarr/Desktop/soundscape-2024/sectores-pandas/castro/ZOOM0019_LR_part005.wav_pie_chart.png" alt="Gráfico" width="300">     <br>     <audio controls>       <source src="/Users/sdcarr/Desktop/soundscape-2024/audio/castro/10_part005.wav" type="audio/wav">       Tu navegador no soporta el elemento de audio.     </audio>     </div>`)[0];
+                popup_9fb5a74219218abfd762bffafc2c2855.setContent(html_478fd37a8bc1248668fee3afa50f356b);
+            
+        
+
+        marker_e9169f59de41482c82992863de251f06.bindPopup(popup_9fb5a74219218abfd762bffafc2c2855)
+        ;
+
+        
+    
+</script>
+</html>
